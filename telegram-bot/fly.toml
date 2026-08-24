@@ -1,0 +1,15 @@
+app = "bookie-hedge-bot"
+primary_region = "iad"
+
+[build]
+
+[env]
+  DB_PATH = "/app/data/bookie.db"
+
+[mounts]
+  source = "bookie_data"
+  destination = "/app/data"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"

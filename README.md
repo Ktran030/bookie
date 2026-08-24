@@ -28,3 +28,9 @@ npm run build    # typecheck + production build
 
 Built with React, TypeScript, Vite, and Tailwind CSS v4. All data lives in
 the browser's `localStorage` — there is no backend.
+
+## Telegram bot
+
+`telegram-bot/` is a standalone Telegram bot version of the same hedge math,
+for logging bets and getting hedge alerts on your phone from anywhere,
+deployable to run 24/7. See [telegram-bot/README.md](telegram-bot/README.md).
